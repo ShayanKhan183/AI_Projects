@@ -35,6 +35,8 @@ SentimentAnalysisProject/
    pip install -r requirements.txt
    ```
 
+![App Screenshot](images/gui.png)
+
 ---
 
 ## ▶️ Usage
