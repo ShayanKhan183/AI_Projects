@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+tk
+👉 Note: tk comes pre-installed with Python, but we add it for clarity.
