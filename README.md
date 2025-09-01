@@ -1,109 +1,64 @@
 
+# 🤖 AI Projects Collection
 
-```markdown
-# 🎓 Student Performance Prediction System (ML + Tkinter GUI)
-
-An **AI-powered system** to analyze and predict **student performance** using **Machine Learning models**.  
-It comes with an interactive **Tkinter-based GUI** that allows data loading, visualization, model training, and real-time predictions.
+Welcome to my **AI Projects Collection**, a repository showcasing various Machine Learning and AI projects built using Python.  
+Each project demonstrates different AI techniques, from predictive modeling to natural language processing, with interactive GUIs and real-world applications.
 
 ---
 
-## 🚀 Features
-- 📊 **Data Visualization** (Class distribution, Gender, Grade, Nationality, etc.)
-- 🤖 **Train multiple ML Models**:
-  - Decision Tree  
-  - Random Forest  
-  - Logistic Regression  
-  - Perceptron  
-  - Neural Network (MLPClassifier)
-- ✅ **Performance Comparison** with accuracy & classification report
-- 🖥️ **GUI for Predictions** (enter student activity and get predicted class)
+## 🗂️ Projects Included
+
+### 1️⃣ Sentiment Analysis Project
+- Analyze text data and classify sentiment (positive/negative).  
+- Built with Python, scikit-learn, and Tkinter GUI.  
+- Features: Data visualization, model training, real-time sentiment prediction.  
+
+### 2️⃣ Spam Mail Detector
+- Detect spam emails using machine learning models.  
+- Built with Python and Tkinter GUI.  
+- Features: Email preprocessing, model training, live email detection.  
+
+### 3️⃣ Student Performance Prediction
+- Predict student performance (High, Medium, Low) based on activity and participation.  
+- Built with Python and Tkinter GUI.  
+- Features: Data visualization, multiple ML models, real-time predictions.  
 
 ---
 
-## 📂 Project Structure
-```
-
-student-performance-prediction/
-│── app.py                 # Main Tkinter GUI application
-│── AI-Data.csv            # Dataset (student performance data)
-│── requirements.txt        # Python dependencies
-│── README.md               # Documentation
-└── images/                 # Screenshots
-├── gui1.png
-├── gui2.png
-└── gui3.png
-
-````
+## 🚀 Features Across Projects
+- 📊 Data visualization for better insights  
+- 🤖 Multiple Machine Learning models  
+- 🖥️ Interactive GUI for predictions and analysis  
+- ✅ Performance evaluation with accuracy and classification reports  
 
 ---
 
 ## 🛠️ Installation
-
 Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/student-performance-prediction.git
-cd student-performance-prediction
+git clone https://github.com/ShayanKhan183/AI_Projects.git
+cd AI_Projects
+pip install -r requirements.txt
 ````
 
-Install dependencies:
+---
 
-```bash
-pip install -r requirements.txt
-```
+## 👨‍💻 About the Author
+
+Developed by **Shayan Adil Khan**.
+This collection is part of my AI learning journey and showcases practical implementations of Machine Learning and AI concepts.
 
 ---
 
-## ▶️ How to Run
+## 🔮 Future Plans
 
-1️⃣ **Start the App**
-
-```bash
-python app.py
-```
-
-2️⃣ **Inside the GUI**
-
-* Load `AI-Data.csv` file
-* Explore **visualizations**
-* Train ML models
-* Enter **student activity details** (Raised Hands, Resources, Discussions, Absence Days)
-* Get **performance prediction** ✅
-
----
-
-## 📊 Example GUI Screenshots
-
-| Home Screen              | Visualization                     | Prediction                     |
-| ------------------------ | --------------------------------- | ------------------------------ |
-| ![Home](images/gui1.png) | ![Visualization](images/gui2.png) | ![Prediction](images/gui3.png) |
-
----
-
-## 📈 Dataset
-
-* **AI-Data.csv**: Contains features like Raised Hands, Visited Resources, Discussion Participation, Absence Days, etc.
-* Target Label: **Class (H = High, M = Medium, L = Low)**
-
----
-
-## 🧠 Models Used
-
-* Decision Tree
-* Random Forest
-* Logistic Regression
-* Perceptron
-* Neural Network (MLPClassifier)
-
-Accuracy varies from **85% – 95%** depending on the model.
-
----
-
-## 👨‍💻 Author
-
-Developed by **Shayan Adil Khan**
-Part of the **AI Projects Collection**
+* Add more AI and ML projects
+* Include web-based versions of projects
+* Improve GUIs and interactivity
+* Integrate deep learning models
 
 ---
 
 ```
+
+---
